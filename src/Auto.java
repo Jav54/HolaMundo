@@ -1,5 +1,19 @@
 public class Auto {
 
+    public Auto(){
+
+    }
+
+    public Auto(String placa, String modelo, int anio, String marca, Motor motor, Duenio duenio, int numRuedas){
+        this.placa=placa;
+        this.modelo=modelo;
+        this.anio=anio;
+        this.marca=marca;
+        this.motor=motor;
+        this.duenio=duenio;
+        this.numRuedas=numRuedas;
+    }
+
     String placa;
     String modelo;
     int anio;
@@ -9,7 +23,7 @@ public class Auto {
     int numRuedas;
 
     double velocidad(int a){
-        double velocidadKmh;
+        double velocidadKmh=0;
         switch(a){
             case 2:
                 velocidadKmh= motor.torque()*a*2;

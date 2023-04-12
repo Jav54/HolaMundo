@@ -6,6 +6,10 @@ public class Motor {
             this.tipoCombustible=tipoCombustible;
     }
 
+    public Motor(String serie) {
+        this.serie = serie;
+    }
+
     String serie;
     Double cilindraje;
     String tipoCombustible;

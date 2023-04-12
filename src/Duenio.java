@@ -9,6 +9,10 @@ public class Duenio {
         this.cedula = cedula;
     }
 
+    public Duenio(String cedula) {
+        this.cedula = cedula;
+    }
+
     String nombre;
     String cedula;
 }

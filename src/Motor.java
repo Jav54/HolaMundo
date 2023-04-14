@@ -23,4 +23,28 @@ public class Motor {
         }
         return torqueNm;
     }
+
+    public String getSerie() {
+        return serie;
+    }
+
+    public void setSerie(String serie) {
+        this.serie = serie;
+    }
+
+    public Double getCilindraje() {
+        return cilindraje;
+    }
+
+    public void setCilindraje(Double cilindraje) {
+        this.cilindraje = cilindraje;
+    }
+
+    public String getTipoCombustible() {
+        return tipoCombustible;
+    }
+
+    public void setTipoCombustible(String tipoCombustible) {
+        this.tipoCombustible = tipoCombustible;
+    }
 }

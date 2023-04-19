@@ -5,6 +5,13 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        Auto auto1 = new Auto();
+        auto1.ingresarAttr();
+        System.out.println("###################################################################################");
+        auto1.imprimirAttr();
+
+
+        /*
         Duenio duenio1 = new Duenio("Javier Morales", "1722828827");
         Motor motor1 = new Motor("A451B57",1.6, "diesel");
         Auto auto1 = new Auto("PBE8545", "Corolla", 2019, "Toyota", motor1, duenio1, 4);
@@ -47,12 +54,7 @@ public class Main {
         System.out.println("###################################################################################");
 
         auto2.imprimirAttr();
-
-
-
-
-
-
+        */
 
 
     }

@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Auto {
 
     public Auto(){
@@ -111,6 +113,30 @@ public class Auto {
     public void setNumRuedas(int numRuedas) {
 
     this.numRuedas = numRuedas;
+    }
+
+
+
+    public void ingresarAttr() {
+
+        Scanner sc = new Scanner(System.in);
+
+        this.duenio = new Duenio();
+        this.motor = new Motor();
+
+        System.out.println("Ingrese la placa del auto");
+        this.placa = sc.next();
+        System.out.println("Ingrese el modelo del auto");
+        this.modelo = sc.next();
+        System.out.println("Ingrese el año del auto");
+        this.anio = sc.nextInt();
+        System.out.println("Ingrese la marca del auto");
+        this.marca = sc.next();
+        System.out.println("Ingrese el numero de ruedas del auto");
+        this.numRuedas = sc.nextInt();
+
+        duenio.ingresarAttr();
+        motor.ingresarAttr();
     }
 
 

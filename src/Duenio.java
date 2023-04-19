@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Duenio {
 
     public Duenio(){
@@ -30,5 +32,16 @@ public class Duenio {
 
     public void setCedula(String cedula) {
         this.cedula = cedula;
+    }
+
+
+    public void ingresarAttr(){
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Ingrese el nombre del dueño: ");
+        this.nombre = sc.next();
+        System.out.println("Ingrese la cédula del dueño: ");
+        this.cedula = sc.next();
     }
 }
